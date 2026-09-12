@@ -1,0 +1,916 @@
+{
+ "profile": {
+  "n_ideas": 12400,
+  "n_events": 52895,
+  "n_open": 4122,
+  "pct_open": 33.2,
+  "n_closed": 8278,
+  "pct_closed": 66.8,
+  "n_realized": 5051,
+  "n_rejected": 2327,
+  "n_duplicate": 900,
+  "open_hours": 1536216,
+  "mean_open_hours": 372.7,
+  "median_open_hours": 126.7,
+  "p90_open_hours": 623.8,
+  "p99_open_hours": 4398.6,
+  "max_open_hours": 45714,
+  "skewness": 17.23,
+  "kurtosis": 394.7,
+  "gini": 0.718,
+  "top10_hours": 253114,
+  "top10_share": 16.5,
+  "top1pct_n": 41,
+  "top1pct_share": 31.4,
+  "top_decile_share": 63.2,
+  "tail_mean": 258.4,
+  "top1pct_mean": 11746.6,
+  "aged_180_n": 3432,
+  "aged_180_pct": 83.3,
+  "inactive_30_n": 2899,
+  "inactive_30_pct": 70.3,
+  "median_open_age": 880.0,
+  "n_hubs": 5,
+  "n_areas": 7,
+  "date_min": "2019-01-07",
+  "date_max": "2026-07-25",
+  "pareto_ratio": 45.5
+ },
+ "stage_open": {
+  "In progress": 1488,
+  "On hold": 761,
+  "In backlog": 721,
+  "Qualified": 558,
+  "Under review": 338,
+  "New": 256
+ },
+ "stage_open_hours": {
+  "In backlog": 244746,
+  "In progress": 658877,
+  "New": 82244,
+  "On hold": 239717,
+  "Qualified": 196168,
+  "Under review": 114463
+ },
+ "category_counts": {
+  "Automation": 4214,
+  "Simplification": 3432,
+  "Standardization": 2922,
+  "Elimination": 1696,
+  "Uncategorised": 136
+ },
+ "hub_counts": {
+  "Porto": 3900,
+  "Krakow": 3100,
+  "Bengaluru": 2600,
+  "Manila": 1700,
+  "Monterrey": 1100
+ },
+ "team_open": {
+  "Automation": 1238,
+  "Self-execution": 1211,
+  "Process Excellence": 651,
+  "Innovation": 650,
+  "Unassigned": 372
+ },
+ "flow": {
+  "pre_triage_items": 594,
+  "exec_side_items": 2249,
+  "exec_side_hours": 898594,
+  "exec_side_value_share_pct": 58.5,
+  "backlog_value_share_pct": 15.9,
+  "stage_open_share_pct": {
+   "In backlog": 15.9,
+   "In progress": 42.9,
+   "New": 5.4,
+   "On hold": 15.6,
+   "Qualified": 12.8,
+   "Under review": 7.5
+  }
+ },
+ "dq": {
+  "raw_null_rates": {
+   "title": 0.0,
+   "description": 0.8,
+   "category": 1.1,
+   "execution_team": 0.6,
+   "savings_hours_est": 1.4
+  },
+  "max_raw_null": 1.4,
+  "post_null_rates": {
+   "title": 0.0,
+   "description": 0.0,
+   "category": 0.0,
+   "execution_team": 0.0,
+   "savings_hours_est": 0.0
+  },
+  "max_post_null": 0.0,
+  "n_implausible_savings": 62,
+  "n_savings_imputed": 235,
+  "n_empty_text": 99,
+  "inferred_ts_pct": 6.1,
+  "reconciliation_variance_pct": 0.0,
+  "monotonic_pct": 100.0,
+  "winsor_p99": 2737,
+  "n_records": 12400,
+  "n_events": 52895
+ },
+ "little": {
+  "wip": 4122,
+  "throughput_per_year": 1701,
+  "throughput_per_month": 141.8,
+  "implied_cycle_days": 884.0
+ },
+ "h1": {
+  "n_fast": 3730,
+  "n_slow": 1321,
+  "median_fast": 72.0,
+  "median_slow": 89.0,
+  "U": 1890548.0,
+  "p": 1.297e-36,
+  "hodges_lehmann": -16.0,
+  "p_str": "< 0.001"
+ },
+ "h2": {
+  "chi2": 435.6,
+  "df": 4,
+  "p": 5.769e-93,
+  "cramers_v": 0.229,
+  "p_str": "< 0.001",
+  "rates": {
+   "Automation": 43.2,
+   "Elimination": 65.5,
+   "Simplification": 68.1,
+   "Standardization": 68.5,
+   "Uncategorised": 56.0
+  }
+ },
+ "corr": {
+  "evidence": {
+   "r": 0.273,
+   "p": 1.762e-141,
+   "n": 8278,
+   "p_str": "< 0.001"
+  },
+  "savings_cycle": {
+   "rho": 0.683,
+   "p": 0.0,
+   "n": 5051,
+   "p_str": "< 0.001"
+  },
+  "dwell_cycle": {
+   "rho": 0.191,
+   "p": 1.265e-42,
+   "n": 5051,
+   "p_str": "< 0.001"
+  }
+ },
+ "km": {
+  "median_days": {
+   "Automation": 144.0,
+   "Simplification": 46.0,
+   "Elimination": 43.0,
+   "Standardization": 40.0
+  },
+  "logrank_stat": 345.3,
+  "logrank_p": 4.373e-77,
+  "logrank_p_str": "< 0.001",
+  "n": 10936,
+  "n_events": 7408,
+  "n_censored": 3528,
+  "closures_outside_population": 870,
+  "ratio_automation_vs_standardisation": 3.6
+ },
+ "control_chart": {
+  "out_of_control_points": {
+   "Automation": 1,
+   "Innovation": 1,
+   "Process Excellence": 0,
+   "Self-execution": 2,
+   "Unassigned": 1
+  },
+  "worst_team": "Self-execution",
+  "mean_exec_days": {
+   "Automation": 77.3,
+   "Innovation": 86.5,
+   "Process Excellence": 47.7,
+   "Self-execution": 34.7,
+   "Unassigned": 94.1
+  },
+  "chart_team": "Automation",
+  "chart_centre": 78.4,
+  "chart_ucl": 166.2,
+  "chart_lcl": 0.0,
+  "chart_breaches": 1,
+  "chart_months": 89
+ },
+ "cohort": {
+  "2019": {
+   "n": 374,
+   "rate": 57.8
+  },
+  "2020": {
+   "n": 715,
+   "rate": 60.7
+  },
+  "2021": {
+   "n": 975,
+   "rate": 61.4
+  },
+  "2022": {
+   "n": 1178,
+   "rate": 59.7
+  },
+  "2023": {
+   "n": 1272,
+   "rate": 59.8
+  },
+  "2024": {
+   "n": 1501,
+   "rate": 63.7
+  },
+  "2025": {
+   "n": 1592,
+   "rate": 60.7
+  },
+  "2026": {
+   "n": 671,
+   "rate": 53.4
+  }
+ },
+ "model_a_logit": {
+  "n_train": 6622,
+  "n_test": 1656,
+  "n_features": 13,
+  "cv_auc_mean": 0.759,
+  "cv_auc_sd": 0.011,
+  "auc": 0.769,
+  "precision": 0.748,
+  "recall": 0.831,
+  "f1": 0.787,
+  "brier": 0.185,
+  "calibration_slope": 1.014,
+  "base_rate": 0.607,
+  "top_odds": {
+   "has_evidence_flag": 1.9,
+   "category_Simplification": 1.66,
+   "category_Standardization": 1.62,
+   "category_Elimination": 1.41
+  },
+  "bottom_odds": {
+   "g1_dwell": 0.84,
+   "execution_team_Unassigned": 0.76,
+   "savings_log": 0.61
+  },
+  "calibration": [
+   [
+    0.177,
+    0.108,
+    166
+   ],
+   [
+    0.329,
+    0.319,
+    166
+   ],
+   [
+    0.431,
+    0.479,
+    165
+   ],
+   [
+    0.522,
+    0.56,
+    166
+   ],
+   [
+    0.602,
+    0.667,
+    165
+   ],
+   [
+    0.674,
+    0.723,
+    166
+   ],
+   [
+    0.735,
+    0.727,
+    165
+   ],
+   [
+    0.794,
+    0.777,
+    166
+   ],
+   [
+    0.852,
+    0.806,
+    165
+   ],
+   [
+    0.911,
+    0.91,
+    166
+   ]
+  ]
+ },
+ "model_a_xgb": {
+  "auc": 0.763,
+  "delta_auc": -0.007,
+  "precision": 0.742,
+  "recall": 0.828,
+  "f1": 0.783,
+  "brier": 0.187,
+  "calibration_slope": 0.97,
+  "top_features": {
+   "has_evidence_flag": 0.307,
+   "execution_team_Unassigned": 0.118,
+   "category_Elimination": 0.083,
+   "category_Simplification": 0.079,
+   "category_Standardization": 0.073
+  }
+ },
+ "fairness": {
+  "role_gap_audit": 0.047,
+  "role_gap_production": 0.004,
+  "hub_gap_audit": 0.084,
+  "hub_gap_production": 0.026,
+  "observed_role_gap": 0.041,
+  "auc_with_proxies": 0.77,
+  "auc_without": 0.769,
+  "role_rates": {
+   "analyst": 59.6,
+   "director": 63.7,
+   "manager": 61.4
+  }
+ },
+ "model_b_aft": {
+  "n_train": 5926,
+  "n_test": 1482,
+  "n_censored_available": 3528,
+  "mae": 30.5,
+  "rmse": 52.7,
+  "coverage_90": 87.4,
+  "naive_median_mae": 32.2,
+  "improvement_vs_naive_pct": 5.1,
+  "median_actual": 34.0,
+  "median_pred": 36.6,
+  "concordance": 0.711,
+  "censored_variant_mae": 183.0,
+  "censored_variant_concordance": 0.654,
+  "completion_rate_at_g2": 67.7,
+  "gate_mae": 30,
+  "passes": false
+ },
+ "model_b_arima": {
+  "order": "(2, 1, 2)",
+  "mape": 5.8,
+  "ljung_box_p": 0.143,
+  "n_months": 90,
+  "n_train": 78,
+  "mean_monthly_throughput": 90.4,
+  "forecast_next_12": 1635
+ },
+ "monte_carlo": {
+  "n_sims": 2000,
+  "p10": 135.0,
+  "p50": 169.0,
+  "p90": 212.0
+ },
+ "wsjf": {
+  "n": 5051,
+  "backtest": {
+   "v1": {
+    "pearson_value": -0.149,
+    "p_value": 1.268e-26,
+    "p_value_str": "< 0.001",
+    "spearman_value": -0.501,
+    "pearson_rate": 0.001,
+    "p_rate": 0.9682,
+    "p_rate_str": "0.968",
+    "spearman_rate": 0.142,
+    "median": 0.1317
+   },
+   "v2": {
+    "pearson_value": 0.179,
+    "p_value": 1.492e-37,
+    "p_value_str": "< 0.001",
+    "spearman_value": 0.086,
+    "pearson_rate": 0.514,
+    "p_rate": 0.0,
+    "p_rate_str": "< 0.001",
+    "spearman_rate": 0.532,
+    "median": 54.6061
+   },
+   "v2_nodecay": {
+    "pearson_rate": 0.592,
+    "spearman_rate": 0.584,
+    "p_rate": 0.0,
+    "p_rate_str": "< 0.001",
+    "pearson_value": 0.222,
+    "p_value_str": "< 0.001"
+   }
+  },
+  "gate_threshold": 0.4,
+  "v1_passes": false,
+  "v2_passes": true,
+  "rank_stability_spearman": 0.971,
+  "top50_overlap_pct": 65.0,
+  "tc_unit": 400,
+  "rc_unit": 600
+ },
+ "counterfactual": {
+  "budget_days": 64109,
+  "fifo": {
+   "value": 3190654,
+   "items": 918,
+   "days": 63878
+  },
+  "wsjf_v1": {
+   "value": 2639551,
+   "items": 2332,
+   "days": 64102,
+   "uplift_pct": -17.3
+  },
+  "wsjf_v2": {
+   "value": 5664097,
+   "items": 1643,
+   "days": 64084,
+   "uplift_pct": 77.5
+  },
+  "oracle": {
+   "value": 7374390,
+   "items": 1069,
+   "uplift_pct": 131.1
+  },
+  "capture_of_oracle": 59.1,
+  "uplift_pct": 77.5
+ },
+ "wsjf_examples": [
+  {
+   "name": "AP invoice-matching automation",
+   "hours": 4000,
+   "p": 0.55,
+   "age": 240,
+   "decay": 0.646,
+   "bv_v1": 1.62,
+   "bv_v2": 14032,
+   "tc": 1,
+   "rc": 0,
+   "job": 60,
+   "wsjf_v1": 0.044,
+   "wsjf_v2": 241,
+   "rank_v1": 4,
+   "rank_v2": 3
+  },
+  {
+   "name": "Standardise month-end report template",
+   "hours": 300,
+   "p": 0.85,
+   "age": 20,
+   "decay": 0.168,
+   "bv_v1": 4.04,
+   "bv_v2": 3819,
+   "tc": 1,
+   "rc": 0,
+   "job": 8,
+   "wsjf_v1": 0.63,
+   "wsjf_v2": 527,
+   "rank_v1": 1,
+   "rank_v2": 1
+  },
+  {
+   "name": "Vendor master cleansing before audit",
+   "hours": 1200,
+   "p": 0.7,
+   "age": 90,
+   "decay": 0.289,
+   "bv_v1": 3.53,
+   "bv_v2": 10750,
+   "tc": 4,
+   "rc": 0,
+   "job": 25,
+   "wsjf_v1": 0.301,
+   "wsjf_v2": 494,
+   "rank_v1": 3,
+   "rank_v2": 2
+  },
+  {
+   "name": "Segregation-of-duties fix in payment run",
+   "hours": 150,
+   "p": 0.6,
+   "age": 400,
+   "decay": 0.9,
+   "bv_v1": 0.3,
+   "bv_v2": 162,
+   "tc": 1,
+   "rc": 3,
+   "job": 10,
+   "wsjf_v1": 0.43,
+   "wsjf_v2": 236,
+   "rank_v1": 2,
+   "rank_v2": 4
+  },
+  {
+   "name": "Cross-hub capacity reallocation",
+   "hours": 6000,
+   "p": 0.3,
+   "age": 500,
+   "decay": 0.961,
+   "bv_v1": 0.1,
+   "bv_v2": 1269,
+   "tc": 3,
+   "rc": 0,
+   "job": 90,
+   "wsjf_v1": 0.034,
+   "wsjf_v2": 27,
+   "rank_v1": 5,
+   "rank_v2": 5
+  }
+ ],
+ "finance": {
+  "hub": "Porto",
+  "pilot_teams": [
+   "Automation",
+   "Innovation",
+   "Self-execution"
+  ],
+  "programme_open_hours": 1536216,
+  "programme_nominal_value": 46086480,
+  "programme_capacity_adjusted": 27651888,
+  "hub_open_items": 1236,
+  "hub_open_hours": 455017,
+  "hub_nominal_value": 13650519,
+  "hub_capacity_adjusted": 8190311,
+  "monthly_decay_adjusted": 682526,
+  "base_items": 304,
+  "base_hours": 49780,
+  "mean_hours_closed": 164.0,
+  "throughput_uplift_pct": 25,
+  "measured_mix_uplift_pct": 77.5,
+  "applied_mix_uplift_pct": 38.8,
+  "incremental_hours": 31735,
+  "recovered_value": 571222,
+  "top_decile_hours": 233296,
+  "aged_recovery_pct": 6,
+  "aged_hours": 13998,
+  "aged_value": 251960,
+  "total_benefit": 823181,
+  "cost": 92500,
+  "cost_items": {
+   "Internal labour (0.8 FTE-year at ~EUR 75K loaded)": 60000,
+   "Development contractor buffer (EUR 400/day x 50 days)": 20000,
+   "Platform and infrastructure (hosting, database, compute, contingency)": 4500,
+   "Training and change (2 workshops x 20 people x 0.5 day)": 8000
+  },
+  "net": 730681,
+  "roi_pct": 790.0,
+  "payback_months": 1.3,
+  "validated_hours_target": 45732,
+  "fte_released": 16.0,
+  "pessimistic": {
+   "throughput_uplift": 12,
+   "mix_uplift": 15.5,
+   "conversion": 0.4,
+   "aged_recovery": 3,
+   "hours": 20688,
+   "recovered": 248259,
+   "total": 248259,
+   "roi": 168.0
+  },
+  "base": {
+   "throughput_uplift": 25,
+   "mix_uplift": 38.8,
+   "conversion": 0.6,
+   "aged_recovery": 6,
+   "hours": 45732,
+   "recovered": 823181,
+   "total": 823181,
+   "roi": 790.0
+  },
+  "optimistic": {
+   "throughput_uplift": 40,
+   "mix_uplift": 50.0,
+   "conversion": 0.75,
+   "aged_recovery": 10,
+   "hours": 68131,
+   "recovered": 1532954,
+   "total": 1532954,
+   "roi": 1557.0
+  },
+  "two_way": {
+   "0.40": {
+    "25": 457323,
+    "30": 548788,
+    "35": 640252,
+    "40": 731717
+   },
+   "0.50": {
+    "25": 571654,
+    "30": 685984,
+    "35": 800315,
+    "40": 914646
+   },
+   "0.60": {
+    "25": 685984,
+    "30": 823181,
+    "35": 960378,
+    "40": 1097575
+   },
+   "0.75": {
+    "25": 857481,
+    "30": 1028977,
+    "35": 1200473,
+    "40": 1371969
+   }
+  },
+  "base_hours_total": 45732,
+  "y1_net": 730681,
+  "y23_benefit": 340000,
+  "y23_cost": 70000,
+  "y23_net": 270000,
+  "npv_base": 1017063,
+  "npv_pess": 234399,
+  "disc": [
+   0.8696,
+   0.7561,
+   0.6575
+  ]
+ },
+ "venture": {
+  "years": [
+   {
+    "new_customers": 3,
+    "churned": 0,
+    "customers_close": 3,
+    "exit_arr": 180,
+    "arr_growth_pct": null,
+    "subscription_revenue": 90,
+    "services_revenue": 75,
+    "revenue": 165,
+    "fte": 3.5,
+    "people_cost": 233,
+    "cloud": 36,
+    "sm_nonpeople": 40,
+    "ga": 40,
+    "opex": 349,
+    "fcf": -184,
+    "roles": {
+     "Founder / CEO & Chief Analytics Officer": {
+      "location": "Porto",
+      "loaded_cost": 70,
+      "fte": 1,
+      "cost": 70
+     },
+     "Lead data scientist / ML engineer": {
+      "location": "Porto",
+      "loaded_cost": 75,
+      "fte": 1,
+      "cost": 75
+     },
+     "Full-stack engineer (web application)": {
+      "location": "Porto",
+      "loaded_cost": 58,
+      "fte": 1,
+      "cost": 58
+     },
+     "Head of product": {
+      "location": "Porto",
+      "loaded_cost": 78,
+      "fte": 0,
+      "cost": 0
+     },
+     "GBS transformation advisor (fractional)": {
+      "location": "Porto",
+      "loaded_cost": 60,
+      "fte": 0.5,
+      "cost": 30
+     },
+     "Customer success / implementation": {
+      "location": "Porto",
+      "loaded_cost": 52,
+      "fte": 0,
+      "cost": 0
+     },
+     "Enterprise account executive": {
+      "location": "DACH / UK",
+      "loaded_cost": 130,
+      "fte": 0,
+      "cost": 0
+     },
+     "Security & compliance (fractional)": {
+      "location": "Porto",
+      "loaded_cost": 60,
+      "fte": 0,
+      "cost": 0
+     }
+    },
+    "cumulative_fcf": -184
+   },
+   {
+    "new_customers": 8,
+    "churned": 1,
+    "customers_close": 10,
+    "exit_arr": 902,
+    "arr_growth_pct": 401.0,
+    "subscription_revenue": 541,
+    "services_revenue": 200,
+    "revenue": 741,
+    "fte": 8.0,
+    "people_cost": 581,
+    "cloud": 60,
+    "sm_nonpeople": 90,
+    "ga": 100,
+    "opex": 831,
+    "fcf": -90,
+    "roles": {
+     "Founder / CEO & Chief Analytics Officer": {
+      "location": "Porto",
+      "loaded_cost": 70,
+      "fte": 1,
+      "cost": 70
+     },
+     "Lead data scientist / ML engineer": {
+      "location": "Porto",
+      "loaded_cost": 75,
+      "fte": 1,
+      "cost": 75
+     },
+     "Full-stack engineer (web application)": {
+      "location": "Porto",
+      "loaded_cost": 58,
+      "fte": 2,
+      "cost": 116
+     },
+     "Head of product": {
+      "location": "Porto",
+      "loaded_cost": 78,
+      "fte": 1,
+      "cost": 78
+     },
+     "GBS transformation advisor (fractional)": {
+      "location": "Porto",
+      "loaded_cost": 60,
+      "fte": 0.5,
+      "cost": 30
+     },
+     "Customer success / implementation": {
+      "location": "Porto",
+      "loaded_cost": 52,
+      "fte": 1,
+      "cost": 52
+     },
+     "Enterprise account executive": {
+      "location": "DACH / UK",
+      "loaded_cost": 130,
+      "fte": 1,
+      "cost": 130
+     },
+     "Security & compliance (fractional)": {
+      "location": "Porto",
+      "loaded_cost": 60,
+      "fte": 0.5,
+      "cost": 30
+     }
+    },
+    "cumulative_fcf": -274
+   },
+   {
+    "new_customers": 15,
+    "churned": 1,
+    "customers_close": 24,
+    "exit_arr": 2382,
+    "arr_growth_pct": 164.0,
+    "subscription_revenue": 1642,
+    "services_revenue": 375,
+    "revenue": 2017,
+    "fte": 12.5,
+    "people_cost": 926,
+    "cloud": 96,
+    "sm_nonpeople": 150,
+    "ga": 120,
+    "opex": 1292,
+    "fcf": 725,
+    "roles": {
+     "Founder / CEO & Chief Analytics Officer": {
+      "location": "Porto",
+      "loaded_cost": 70,
+      "fte": 1,
+      "cost": 70
+     },
+     "Lead data scientist / ML engineer": {
+      "location": "Porto",
+      "loaded_cost": 75,
+      "fte": 2,
+      "cost": 150
+     },
+     "Full-stack engineer (web application)": {
+      "location": "Porto",
+      "loaded_cost": 58,
+      "fte": 3,
+      "cost": 174
+     },
+     "Head of product": {
+      "location": "Porto",
+      "loaded_cost": 78,
+      "fte": 1,
+      "cost": 78
+     },
+     "GBS transformation advisor (fractional)": {
+      "location": "Porto",
+      "loaded_cost": 60,
+      "fte": 1,
+      "cost": 60
+     },
+     "Customer success / implementation": {
+      "location": "Porto",
+      "loaded_cost": 52,
+      "fte": 2,
+      "cost": 104
+     },
+     "Enterprise account executive": {
+      "location": "DACH / UK",
+      "loaded_cost": 130,
+      "fte": 2,
+      "cost": 260
+     },
+     "Security & compliance (fractional)": {
+      "location": "Porto",
+      "loaded_cost": 60,
+      "fte": 0.5,
+      "cost": 30
+     }
+    },
+    "cumulative_fcf": 451
+   }
+  ],
+  "exit_arr": 2382,
+  "fte_by_year": [
+   3.5,
+   8.0,
+   12.5
+  ],
+  "peak_cumulative_burn": 274,
+  "funding_need_with_buffer": 1105,
+  "fcf": [
+   -184,
+   -90,
+   725
+  ],
+  "pv": [
+   -160.0,
+   -68.1,
+   476.7
+  ],
+  "npv_no_tv": 249.0,
+  "tv5": 7831.0,
+  "npv5": 8080.0,
+  "tv3": 4699.0,
+  "npv3": 4947.0,
+  "breakeven_multiple": 0.0,
+  "gross_margin": 0.72,
+  "annual_churn": 0.08,
+  "cac": 45,
+  "nrr": 1.18,
+  "arr_blended": 95,
+  "arr_design": 60,
+  "ltv_perpetual": 855.0,
+  "ltv_5yr": 291.0,
+  "ltv_cac_perpetual": 19.0,
+  "ltv_cac_5yr": 6.5,
+  "cac_payback_months": 7.9,
+  "disc": [
+   0.8696,
+   0.7561,
+   0.6575
+  ]
+ },
+ "market": {
+  "ssc_count_low": 7000,
+  "ssc_count_high": 10000,
+  "india_gccs": 2117,
+  "india_gcc_units": 3728,
+  "poland_centres": 2081,
+  "ci_mature_share": 0.25,
+  "arr_blended": 95,
+  "sam_low_eur_m": 166.0,
+  "sam_high_eur_m": 238.0,
+  "sam_sensitivity": {
+   "0.15": [
+    100.0,
+    142.0
+   ],
+   "0.25": [
+    166.0,
+    238.0
+   ],
+   "0.35": [
+    233.0,
+    332.0
+   ]
+  },
+  "som_customers_y3": 24,
+  "som_arr_y3": 2382
+ }
+}

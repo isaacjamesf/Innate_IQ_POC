@@ -1,0 +1,10 @@
+# Verified: a clean install of these versions reproduces data/*.csv byte-for-byte
+# and every value in results.json exactly (checked 2026-08-29).
+pandas==2.3.3
+numpy==2.4.4
+scipy==1.17.1
+scikit-learn==1.8.0
+xgboost==3.4.1
+lifelines==0.30.3
+statsmodels==0.14.6
+matplotlib==3.10.8
